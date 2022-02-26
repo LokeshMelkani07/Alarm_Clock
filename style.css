@@ -1,0 +1,50 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock{
+  font-family: 'Orbitron', sans-serif;
+  font-size : 10vw;
+  /* background-color: white; */
+  /* color: black; */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  margin-bottom: 5px;
+}
+
+.controls{
+    margin-top: 16px;
+}
+
+.button{
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm{
+    background-color: green;
+}
+
+.clear-alarm{
+    background-color: red;
+}
